@@ -9,3 +9,13 @@ for _ in range(N):
     if min_a < a:
         min_a = a
 print(min_a)
+
+# # 답안 예시
+# N, M = map(int, input().split())
+# result = 0
+# for i in range(N):
+#     data = list(map(int, input().split()))
+#     min_value = min(data)
+#     result = max(result, min_value)
+#
+# print(result)
